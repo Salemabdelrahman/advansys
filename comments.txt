@@ -1,0 +1,11 @@
+4. Always make a standard of naming classes (Don’t use _ once and other -) 
+انا دايما بستخدم Dash في شغلي انا
+
+5. Always use CSS instead of multiple classes like this, it’s a bad code. Just use one or two classes then give other properties in css 
+ال classes الكتير دي بتاعة Bootstrap بستخدمها عشان اقلل عدد الامواد في CSS style
+
+10. The folder assets is very heavy 29 MB is a very large size for only 3 html pages! I Noticed that some images is very large than usual so you should resize them.
+انا منزل الصور من الديزين هيا اللي حجمها كبير (الفيديو لوعدة 11 MB)
+
+20. Register isn’t a button, it’s a “link”
+انا عملته Button وجواه Link 

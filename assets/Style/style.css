@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+
+.green_text {
+  color: #65c07c;
+}
+.grey_text {
+  color: #717171;
+}
+.green_bg {
+  background-color: #7bc190;
+}
+.border_green {
+  border-top: 10px solid #7bc190;
+  display: block;
+}
+.border_top_full_green {
+  border-top: 10px solid #7bc190;
+}
+.border_bottom_full_green {
+  border-bottom: 10px solid #7bc190;
+}
+.border_left_title {
+  font-size: 70px;
+  border-left: 15px solid #fff;
+  transition: all 0.7s ease-in-out;
+}
+.border_left_title:hover {
+  border-color: #2de81a;
+}
+
+.hr_border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  margin: 0;
+  opacity: 1;
+  outline: none;
+  border-top: none;
+  width: 60% !important;
+}
+a {
+  text-decoration: none !important;
+}
+.outlayer {
+  background-color: rgba(0, 56, 11, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+
+header {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+}
+header .navbar .navbar-brand {
+  width: 300px;
+  height: 70px;
+  padding: 0;
+}
+header .navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+}
+header .navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #65c07c;
+}
+header .navbar-nav .nav-link.active {
+  color: #65c07c;
+}
+/* END Header */
+
+/* START Efficiency Section */
+.efficiency_section {
+  width: 100vw;
+  height: 100vh;
+}
+.efficiency_section #myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 7%;
+  z-index: -1;
+  padding-top: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.efficiency_section .container .title-efficiency,
+.efficiency_section .container .submit-efficiency {
+  height: 65vh;
+}
+.register {
+  transition: all 0.5s ease-in-out;
+  font-size: 26px;
+}
+
+.register:hover {
+  background-color: #2de81a;
+  color: white;
+  border-color: #2de81a;
+}
+
+/* START About */
+.about {
+  background: url('../images/background_white.png') no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+.about .head {
+  border-left: 10px solid #65c07c;
+}
+/* END About */
+
+/* START Schedule */
+.schedule {
+  background: url('../images/background_green.png') center top no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  width: 100%;
+}
+.schedule .schedule_child {
+  background: url('../images/background_gray.png') no-repeat center center;
+  background-size: cover;
+  padding: 80px 0;
+  width: 100%;
+}
+
+.schedule .schedule_child .title {
+  margin-top: 15rem;
+}
+
+/* START The Venue */
+.the_venue .title {
+  margin: 3rem 0 5rem;
+}
+/* END Schedule */
+
+/* START Footer */
+footer {
+  background-color: #292561;
+}
+.contact_us .logo {
+  width: 432px !important;
+  height: 93px !important;
+}
+/* END Footer */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+.efficiency_section_bg {
+  background: url('../images/background_green.png') center top no-repeat;
+  background-size: cover;
+}
+/* START details */
+.details {
+  padding: 70px 0;
+  background: transparent url('../images/background_green.png') 64% 0% no-repeat padding-box;
+  mix-blend-mode: darken;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+/* ----------------------------------------------- */
+/* ----------------------------------------------- */
+.add_details_header {
+  background: url('../images/background_green.png') center center no-repeat;
+  background-size: cover;
+}
+.add_details {
+  margin-top: 12rem;
+  padding-bottom: 7rem;
+  position: relative;
+}
+.form-check-input[type='radio'] {
+  width: 20px;
+  height: 20px;
+}
+.form-check-input:checked {
+  width: 20px;
+  height: 20px;
+  background-color: #65c07c;
+  border-color: #65c07c;
+}
+.add_details button[type='submit'] {
+  height: 60px;
+}
+.add_details button[type='submit']:hover {
+  background-color: rgb(26 141 55);
+}
+.add_details .event_box {
+  background-color: #65c07c;
+  height: 300px;
+  flex-direction: column;
+}
+.form-control {
+  height: 60px;
+}

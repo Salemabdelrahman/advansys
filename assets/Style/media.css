@@ -1,0 +1,77 @@
+/* ----------------------------------------------- */
+/* ---------------  Media  ----------------- */
+/* ----------------------------------------------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+  .fs-20 {
+    font-size: 12px;
+  }
+  .fs-26 {
+    font-size: 14px;
+  }
+  .fs-40 {
+    font-size: 20px !important;
+  }
+  .ps-5 {
+    padding-left: 1rem !important;
+  }
+
+  .navbar-toggler {
+    background-color: white;
+  }
+  .navbar .navbar-brand,
+  .contact_us .logo {
+    width: 120px !important;
+    height: 50px !important;
+  }
+  .border_left_title {
+    font-size: 30px;
+    border-left-width: 5px;
+    padding-left: 1rem !important;
+  }
+  .up,
+  .parent {
+    height: auto;
+  }
+  .efficiency_section .register {
+    padding: 3px 20px !important;
+    padding-left: 1rem !important;
+  }
+  .about .head {
+    border-left-width: 5px;
+  }
+  .up-img {
+    height: 300px;
+  }
+  .about,
+  .schedule {
+    padding: 40px 0;
+  }
+  .schedule .schedule_child .title {
+    margin-top: 18rem;
+  }
+  footer .container {
+    display: block !important;
+  }
+  footer .container > div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
